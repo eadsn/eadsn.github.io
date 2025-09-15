@@ -1,0 +1,14 @@
+# Build
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler
+vendor/
+.bundle/
+
+# Logs e temporários
+*.log
+*.swp
+.DS_Store
