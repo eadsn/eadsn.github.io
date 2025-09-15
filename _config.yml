@@ -1,0 +1,25 @@
+title: "Emerson Almeida"
+description: "Designer — Portfólio e Blog"
+url: "https://eadsn.github.io"
+baseurl: ""  # vazio, pois este é o domínio raiz
+lang: pt-BR
+
+collections:
+  projects:
+    output: true
+    permalink: /projetos/:title/
+
+permalink: /blog/:title/
+
+header_pages:
+  - blog.md
+  - projetos.md
+  - contato.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+sass:
+  style: compressed

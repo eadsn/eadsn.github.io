@@ -1,0 +1,23 @@
+// Botões e links
+a {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#dark-toggle {
+  margin-left: 20px;
+  padding: 5px 10px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+body.dark #dark-toggle {
+  background: #444;
+  color: #fff;
+}
